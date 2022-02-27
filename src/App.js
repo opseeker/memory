@@ -1,11 +1,10 @@
 import './App.css';
-import { Link } from "react-router-dom";
-import {Navbar } from "./components/Nav";
+import {Homepage} from "./components/Home";
 
 function App() {
   return (
     <>
-    <Navbar navTitle="Home"/>
+    <Homepage/>
     </>
   );
 }

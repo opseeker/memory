@@ -42,7 +42,10 @@
     align-items: center;
     text-transform: uppercase;
     font-size: 1em;
+    display: none;
 }
+
+.nav-list.active {display: flex}
 
 .nav-list ul li a {
     text-decoration: none;
@@ -69,5 +72,11 @@
     position: absolute;
     top: 10px;
     left: 20px;
+}
+
+.navEnd {
+    margin: 60px;
+    position: relative;
+    top: 0px;
 }
 

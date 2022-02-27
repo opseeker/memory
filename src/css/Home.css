@@ -1,0 +1,24 @@
+.text-1 {
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 0;
+    font-weight: 350;
+}
+
+.text-2 {
+    font-size: 1em;
+    padding: 20px;
+    margin: 0;
+    font-weight: 380;
+}
+
+.section-2 {
+    background-color: rgb(141, 189, 145);
+    padding: 10px 0px 10px 0px;
+}
+
+.section-2 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
