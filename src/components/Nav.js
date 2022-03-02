@@ -62,7 +62,7 @@ class NavList extends React.Component {
             </div>
             <ul className='Dropdown'>
                 <li>
-                    <Link to='/' className={this.props.link1?"active":""}>Home</Link>
+                    <Link to='/memory' className={this.props.link1?"active":""}>Home</Link>
                     <Link to='/about' className={this.props.link2?"active":""}>About</Link>
                     <Link to='/chapter' className={this.props.link3?"active":""}>chapters</Link>
                 </li>

@@ -14,7 +14,7 @@ import {DS1} from './story/DS1';
 ReactDOM.render(
   <Router>
     <Routes>
-      <Route path="/" element={<Homepage/>} />
+      <Route path="/memory" element={<Homepage/>} />
       <Route path="/about" element={<Aboutpage/>} />
       <Route path="/chapter" element={<Chapterpage/>} />
       <Route exact path='/dailySchedule' element={<DS1/>}/>
