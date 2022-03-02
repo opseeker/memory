@@ -22,3 +22,45 @@
     text-transform: uppercase;
     text-decoration: underline;
 }
+
+.img-1 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 4px 4px 1.8px red, 8px 8px blue;
+    border: none;
+    border-radius: 0px 0px 60% 0px;
+    position: relative;
+    left: 0px;
+}
+
+.image-wrapper {
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-image: url(../media/img/me.jpg); */
+    /* z-index: -1; */
+    /* transform-style: preserve-3d; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* perspective: 10px; */
+}
+
+.author-txt {
+    max-width: 200px;
+    margin: 0px 0px 0px 8%;
+}
+
+.author {
+    font-size: 1.4em;
+    font-weight: 320;
+}
+
+.L-txt {
+    padding: 0px .5em 0px .5em;
+    margin: 0;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 400;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Nav'
 import '../css/Home.css';
+import Img1 from '../media/img/me.jpg';
 
 export const Homepage = () => {
   return (<>
@@ -18,7 +19,7 @@ export const Homepage = () => {
         <p className='text-2'>The whole application is being built up in pieces by us...</p>
       </div>
     </div>
-    <ImageWrapper/>
+    <ImageWrapper />
     </>
   )
 }
@@ -26,9 +27,18 @@ export const Homepage = () => {
 class ImageWrapper extends React.Component {
   render() {
     return(
+      <>
       <div className='image-wrapper'>
-        
+        <img src={Img1} className="img-1"/>
+        <div className="author-txt">
+          <p className="author">Ankit Saikia</p>
+          <p>FWD (FrontEnd Web Developer)</p>
+          <p><span className="git">GitHub</span> based <br/>- web project -</p>
+          <p>Page creator</p>
+        </div>
       </div>
+          <p className="L-txt">Sercured by &reg;DMA-lock encryption&trade;</p>
+      </>
     )
   }
 

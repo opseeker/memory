@@ -6,6 +6,7 @@ const Story = (props) => {
     <>
     <div className="container-a">
         <div className="container-b">
+            <h1>{props.title}</h1>
             <div className="story">{props.story}</div>
             <div className="details">
                 <p className="authorName">{props.author}</p>
@@ -35,6 +36,7 @@ Story.defaultProps = {
     author: "Ankit Saikia",
     date: "00-00-0000",
     story: <Sample/>,
+    title: "Title"
 }
 
 Story.propTypes = {

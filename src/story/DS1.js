@@ -6,7 +6,12 @@ export const DS1 = () => {
   return (
     <>
       <Navbar navTitle="Story1" link3={true} />
-          <Story/>
+          <Story title="Daily Schedule" 
+          story={<>
+            <p className="p1">The daily routines in both of our life was a little different in many ways.</p>
+          </>}
+          date="02/03/2022" 
+          />
     </>
   )
 }
