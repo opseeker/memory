@@ -30,10 +30,7 @@ You can check for the updated versions on Sundays.
 If you dont see an update, please be patient and wait for some time.
 
 
-**Note: This is a private project practice, do not copy the src codes.
-<br>
--Saikia
-**
+**Note: This is a private project practice, do not copy the src codes.**
 
 ```
 npm create-react-app
