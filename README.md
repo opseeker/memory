@@ -41,6 +41,7 @@ this is the basic...
 [animate.css](https://animate.style/) helps in styling and animation for React so it can be easily used.
 <br>
 To use this, you have to `import 'animate.css' into your working file`.
+
 Then in the element that you want to animate, add `animate__animated` and the `class` of the `Animation` you want.
 
 **Adding extra components**
