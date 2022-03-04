@@ -30,11 +30,23 @@ If you dont see an update, please be patient and wait for some time.
 
 **Note: This is a private project practice, do not copy the src codes.**
 ```
-install this
+npm create-react-app
+
+npm start
+
 ```
+this is the basic...
 
-**Logs:**
+**Using animations**
+[animate.css](https://animate.style/) helps in styling and animation for React so it can be easily used.
 
-Date        | Description
-------------|------------
-04-Mar-2022 | Readme.md, 
+**Adding extra components**
+Free [components](https://freefrontend.com/) can be found, and many more sites offer some insights in this.
+
+**NPM packages installed:**
+
+Package                 | Description
+------------------------|-------------------------------------------
+animate.css             | css pre-built animations for `ease-of-use`.
+react-reading-progress  | article reading progress bar indiicator component from [FreeFonted]
+(https://freefrontend.com/).
