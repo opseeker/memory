@@ -16,8 +16,8 @@ Project created using `react` and the steps used will be provided below:
 4. `npm install --save gh-pages`.
 
 5. in the package.json file, add this in the scriipts: 
-    `"predeploy": "npm run build",
-     "deploy": "gh-pages -d build",`.
+    ```"predeploy": "npm run build",
+     "deploy": "gh-pages -d build",```.
 
 6. `npm run deploy`.
 
