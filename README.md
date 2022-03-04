@@ -39,6 +39,9 @@ this is the basic...
 
 **Using animations**
 [animate.css](https://animate.style/) helps in styling and animation for React so it can be easily used.
+<br>
+To use this, you have to `import 'animate.css' into your working file`.
+Then in the element that you want to animate, add `animate__animated` and the `class` of the `Animation` you want.
 
 **Adding extra components**
 Free [components](https://freefrontend.com/) can be found, and many more sites offer some insights in this.
