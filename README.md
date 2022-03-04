@@ -48,5 +48,4 @@ Free [components](https://freefrontend.com/) can be found, and many more sites o
 Package                 | Description
 ------------------------|-------------------------------------------
 animate.css             | css pre-built animations for `ease-of-use`.
-react-reading-progress  | article reading progress bar indiicator component from [FreeFonted]
-(https://freefrontend.com/).
+react-reading-progress  | article reading progress bar indiicator component from [FreeFonted](https://freefrontend.com/).
