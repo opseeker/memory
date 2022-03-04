@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Nav';
 import '../css/Chap.css';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 
 export const Chapterpage = () => {
   return (
@@ -29,7 +29,10 @@ class Contents extends React.Component {
     return (
       <ul>
         <li>
-          <Link to='/dailySchedule'>Daily Schedule</Link>
+          <Link to='/story/dailySchedule'>Daily Schedule</Link>
+        </li>
+        <li>
+          <Link to="/story/bigIssue">A Big issue</Link>
         </li>
       </ul>
     )

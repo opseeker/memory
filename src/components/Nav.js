@@ -2,30 +2,30 @@ import React from 'react';
 import '../css/Nav.css';
 import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
+import 'animate.css';
 
 const Navbar = (props) => {
   return (
       <>
         <div className='navbar'>
           <Title navTitle={props.navTitle}/>
-          <NavList link1={props.link1} link2={props.link2} link3={props.link3} />
+          <NavList link1={props.link1} link2={props.link2} link3={props.link3}/>
         </div>
         <div className='navEnd'></div>
       </>
   )
-}
+} 
 export default Navbar;
 
 class Title extends React.Component {
     render() {
         return (
-            <div className='nav-title'>{this.props.navTitle}</div>
+            <div className='nav-title animate__bounceInLeft  animate__animated'>{this.props.navTitle}</div>
         )
     }
 }
 
 class NavList extends React.Component {
-
     state = {
         clickedOutside: false
       };
@@ -60,7 +60,7 @@ class NavList extends React.Component {
             <span className='bar'></span>
             <span className='bar'></span>
             </div>
-            <ul className='Dropdown'>
+            <ul className='Dropdown animate__animated animate__slideInRight'>
                 <li>
                     <Link to='/memory' className={this.props.link1?"active":""}>Home</Link>
                     <Link to='/about' className={this.props.link2?"active":""}>About</Link>

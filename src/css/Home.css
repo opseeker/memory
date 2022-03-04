@@ -21,12 +21,13 @@
     text-align: center;
     text-transform: uppercase;
     text-decoration: underline;
+    margin: 0;
 }
 
 .img-1 {
     width: 200px;
     height: 200px;
-    box-shadow: 4px 4px 1.8px red, 8px 8px blue;
+    box-shadow: 4px 4px 1.8px red,8px 8px green, 12px 12px blue;
     border: none;
     border-radius: 0px 0px 60% 0px;
     position: relative;
@@ -63,4 +64,13 @@
     font-size: 1.2em;
     text-align: center;
     font-weight: 400;
+}
+
+.git {
+    color: green;
+    font-size: 1.2em;
+    font-weight: 300;
+    border: solid 1px red;
+    border-radius: 10px 0px 10px 0px;
+    background-color: black;
 }

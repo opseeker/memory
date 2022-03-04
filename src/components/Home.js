@@ -16,7 +16,7 @@ export const Homepage = () => {
       <div className='section-2'>
         <div className='image-wrapper'></div>
         <h2>Building blocks</h2>
-        <p className='text-2'>The whole application is being built up in pieces by us...</p>
+        <p className='text-2'>The whole application is being built up in pieces by us. This helps the code to be clean and structured.</p>
       </div>
     </div>
     <ImageWrapper />
@@ -29,7 +29,7 @@ class ImageWrapper extends React.Component {
     return(
       <>
       <div className='image-wrapper'>
-        <img src={Img1} className="img-1"/>
+        <img src={Img1} className="img-1 animate__animated animate__rotateInDownRight"/>
         <div className="author-txt">
           <p className="author">Ankit Saikia</p>
           <p>FWD (FrontEnd Web Developer)</p>
@@ -41,5 +41,4 @@ class ImageWrapper extends React.Component {
       </>
     )
   }
-
 }

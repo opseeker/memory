@@ -89,3 +89,9 @@
     top: 0px;
 }
 
+.mode-btn {
+    display: flex;
+    position: fixed;
+    top: 20px;
+    right: 25%;
+}

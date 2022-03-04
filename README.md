@@ -1,6 +1,7 @@
 # Personal GitHub project
 
 This project was created by [Ankit Saikia](https://github.com/opseeker).
+![Image](./src/media/img/me.jpg)
 
 ## Description:
 
@@ -28,3 +29,12 @@ If you dont see an update, please be patient and wait for some time.
 
 
 **Note: This is a private project practice, do not copy the src codes.**
+```
+install this
+```
+
+**Logs:**
+
+Date        | Description
+------------|------------
+04-Mar-2022 | Readme.md, 

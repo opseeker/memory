@@ -1,16 +1,24 @@
 import React from 'react'
 import PropTypes from 'prop-types';
+import '../css/story.css';
+import LockScreen from './Locked';
+import ReadingProgress from 'react-reading-progress';
+import Navbar from './Nav';
 
 const Story = (props) => {
   return (
     <>
-    <div className="container-a">
-        <div className="container-b">
+    <ReadingProgress targetEl="#storyBox" />
+    <LockScreen/>
+    <Navbar/>
+    <div className="container-a" id="storyBox">
+        <div className="b">
             <h1>{props.title}</h1>
             <div className="story">{props.story}</div>
             <div className="details">
                 <p className="authorName">{props.author}</p>
                 <p className="date">{props.date}</p>
+                <div className="box-a"></div>
             </div>
         </div>
     </div>
@@ -40,7 +48,6 @@ Story.defaultProps = {
 }
 
 Story.propTypes = {
-    story: PropTypes.string,
     author: PropTypes.string,
     date: PropTypes.number,
 }

@@ -1,0 +1,17 @@
+.about .page {
+    margin: 0;
+    padding: 10px;
+}
+
+.about .page h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.about .page p {
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+}
